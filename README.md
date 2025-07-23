@@ -16,3 +16,7 @@ About: use a hybrid mix of rule-based regex matching and llm generation for q&a 
 Results: tested on only 2 docs in a test folder
 seems to do a better job than just using the llm
 only issue is some text/questions repeat and don't have answers - but the ones that are correctly matched also have pretty good category matching.
+also duplicates exist
+
+3. full_rule_based files
+Same as above but tested on all docs in grant_training_data
